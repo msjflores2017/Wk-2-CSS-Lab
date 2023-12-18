@@ -1,0 +1,63 @@
+/* Here are the elements I chose to change. */
+/* background color is lightgoldenrodyellow. */
+body {
+    background-color: lightgoldenrodyellow;
+  }
+  /* h1 is red and center-aligned. */
+  h1 {
+    color: rgb(212, 6, 6);
+    text-align: center;
+  }
+   /* h2 color is darkcyan and center-aligned. */
+  h2 {
+    color: darkcyan;
+    text-align: center;
+  }
+   /* h4 header color is darkorchid and center-aligned. */
+   h4 {
+    color: darkorchid;
+    text-align: center;
+  }
+ /* table border size is 3px and color is blueviolet; 
+ margin is 50px, padding is 25px, font is Trebuchet size is 30px. */
+  table, tr, th, td {
+    border: 3px solid;
+    padding: 25px;
+    margin: 50px;
+    color: blueviolet;
+    font-family: Trebuchet MS;
+    font-size: 30px;
+  }
+  /* input styles for form. */
+  input {
+    width: 50%;
+    padding: 15px 30px;
+    border-color: black;
+    margin: 10px 1;
+    box-sizing: content-box;
+  }
+  input[type=button], input[type=submit] {
+    background-color: pink;
+    color: darkolivegreen;
+  }
+/* id selector for styling the main text on the index page. */  
+#main-paragraph {
+    font-family: Tahoma;
+    font-size: large;
+}
+/* class selector for hovering over of the links in the color of white. */
+  .hov:hover {
+    background-color: white;
+  }
+/* unvisited link */
+a:link {
+    color: darkslateblue;
+  }
+ /* visited link */
+a:visited {
+    color: gray;
+  }
+/* mouse over link */
+a:hover {
+    color: darkred;
+  }
